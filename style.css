@@ -1,0 +1,77 @@
+html {
+	background-color: white ;
+
+}
+li {
+	list-style-type: none;
+	margin: 0 2vw;
+  font-size: 3vh;
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2vw;
+  font-family: monospace;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+a:hover button {
+  background-color: #C6E9FF;
+
+}
+button{
+    border: medium none;
+  background-image: none; 
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  }
+  #navi {
+    background-image: url("logo.jpg");
+    background-size: 1500px;
+
+  }
+ ul p {
+  color: white;
+ }
+ button p{
+  display: inline-block;
+   margin-left: 8px;
+ }
+#new { 
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.display-6{
+  background-color: #dc3545;
+}
+#new5 {
+    text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#new6 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#jewelr {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sleep {
+  font-size: 200%;
+  font-family: Times New Roman;
+  text-align:justify;
+}
+.sleep2{
+  font-family: Times New Roman;
+}
+p{
+  font-family: Times New Roman;
+}
