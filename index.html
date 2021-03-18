@@ -120,16 +120,18 @@ VK: Taszhan Alua
 <img src="arms.jfif" class="rounded">
 <br>
 </div></div>
+	<!--here i use jquery-->
 <script type="text/javascript">
+	
 	$(document).ready(function () {
-
+//in the beginning all of these elements are hiding  
             $("#text").hide();
             $(".fashiondev").hide();
             $("#new5").hide();
             $("#new6").hide();
             $(".container1").hide();
             $('#jewelr').hide();
-
+//but when i click buttom b1 some of them are shown 
             $('#b1').click(function () {
                 $('#text').fadeToggle(800);
                 $('#new').slideToggle(1300);
@@ -138,6 +140,7 @@ VK: Taszhan Alua
                 $("#new6").hide();
                 $('#jewelr').hide(900);
             });
+		//in the other parts, it is exactly the same
             $('#b2').click(function () {
                 $('.fashiondev').fadeToggle(900);
                 $('#text').fadeOut(900);
